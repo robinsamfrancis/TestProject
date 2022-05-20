@@ -20,7 +20,7 @@ import com.infy.exception.InfyBankException;
 import com.infy.service.CustomerService;
 
 @RestController
-@RequestMapping(value = "/infybank") //used to map the HTTP(Web request)requests to handler methods (takes log msgs from logger and export them)
+@RequestMapping(value = "/infybank") //I made this change to test
 public class CustomerAPI {
 
 	@Autowired
