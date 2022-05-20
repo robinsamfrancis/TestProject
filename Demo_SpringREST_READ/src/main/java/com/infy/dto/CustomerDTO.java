@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class CustomerDTO {
 
-	private Integer customerId;
+	private Integer customerId; //customer id set as private
 	private String emailId;
 	private String name;
 	private LocalDate dateOfBirth;
